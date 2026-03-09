@@ -62,9 +62,42 @@ Router -->|LAN 4| Printer
 ## 4. Plano de endereçamento IP
 
 Rede: 192.168.0.0/24
+
 Gateweay 192.168.0.1
 
 | Dispositivo| Tipo de IP| Endereço| Observação|
 |------------|-------------|-------------|-------------|
 |Roteador| Estático| 192.168.0.1| IP do roteador|
+| impressora| Reserva DHCP| 192.168.0.100| IP reservado pelo roteador|
+|PC1| Reserva DHCP| 192.168.0.101| IP reservado pelo roteador|
+|PC2| DHCP| Automático | IP Atribuido pelo roteador|
 
+
+**Observação**
+- A impressora e um dos notbooks utilizam reserva DHCP.
+- O roteador sempre atribui o mesmo o mesmo endereço IP e esses Dispositivos.
+
+  ---
+
+##5. Implementação no Laboratório Real
+
+Após a instalação , a rede foi montada fisicamente no laboratório
+
+Etapas realizadas:
+
+(fotos)
+
+testes:
+
+(fotos)
+
+## 6. Conclusão
+
+Este laboratório conseguiu compreender o funcionamento de uma rede local simples, incluido:
+
+- Estrutura de uma rede doméstica ou de um pequeno escritório
+- Utilizando de um roteador de porta WAN e portas LAN
+- Funcionamento do DHCP
+- Comunicação entre dispositivos de rede local
+- Utilização de uma impressora de rede
+- Compartilhamento de pastas na redes
