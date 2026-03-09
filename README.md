@@ -58,3 +58,13 @@ Router -->|LAN 4| Printer
 ```
 ![](Cisco.png)
 
+
+## 4. Plano de endereçamento IP
+
+Rede: 192.168.0.0/24
+Gateweay 192.168.0.1
+
+| Dispositivo| Tipo de IP| Endereço| Observação|
+|------------|-------------|-------------|-------------|
+|Roteador| Estático| 192.168.0.1| IP do roteador|
+
