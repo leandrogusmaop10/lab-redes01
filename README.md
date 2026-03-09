@@ -68,9 +68,10 @@ Gateweay 192.168.0.1
 | Dispositivo| Tipo de IP| Endereço| Observação|
 |------------|-------------|-------------|-------------|
 |Roteador| Estático| 192.168.0.1| IP do roteador|
-| impressora| Reserva DHCP| 192.168.0.100| IP reservado pelo roteador|
+|Impressora| Reserva DHCP| 192.168.0.100| IP reservado pelo roteador|
 |PC1| Reserva DHCP| 192.168.0.101| IP reservado pelo roteador|
 |PC2| DHCP| Automático | IP Atribuido pelo roteador|
+|PC3| DHCP| Automático | IP Atribuido pelo roteador|
 
 
 **Observação**
